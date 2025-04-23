@@ -1,4 +1,4 @@
-# Statistics Final Project Topic
+# Statistics I Final Project Topic
 Explore the link between higher education and drug use over the years.
 
 # 🎓 Higher Education and Drug Consumption  
