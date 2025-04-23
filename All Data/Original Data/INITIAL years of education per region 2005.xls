@@ -1,0 +1,974 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>I.Stat</Author>
+  <LastAuthor>Savina Salvaridou</LastAuthor>
+  <Created>2024-05-03T18:05:46Z</Created>
+  <LastSaved>2024-05-06T09:57:36Z</LastSaved>
+  <Company>ISTAT</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>8100</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m1202386439172">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="m1202386439192">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+   <NumberFormat ss:Format="dd\-mmm"/>
+  </Style>
+  <Style ss:ID="m1202386439212">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="m1202386439232">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+   <NumberFormat ss:Format="dd\-mmm"/>
+  </Style>
+  <Style ss:ID="m1202386439252">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="m1202386439272">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="m1202386438736">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438756">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438776">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438796">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438816">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438836">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438856">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438876">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438896">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#00A1E3" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438528">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438548">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438568">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438588">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438608">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="m1202386438628">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#2973BD" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="9" ss:Color="#000080"
+    ss:Bold="1" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s104">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Bold="1"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s105">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFFFF" ss:Pattern="Gray50" ss:PatternColor="#C0C0C0"/>
+  </Style>
+  <Style ss:ID="s123">
+   <Interior/>
+  </Style>
+  <Style ss:ID="s124">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s125">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Courier New" x:Family="Modern" ss:Size="9" ss:Color="#FF0000"
+    ss:Bold="1"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s126">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Color="#FFFFCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s127">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Color="#FFFFCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#FFFF00" ss:Pattern="Solid"/>
+   <NumberFormat ss:Format="#,##0_ ;\-#,##0\ "/>
+  </Style>
+  <Style ss:ID="s132">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8"/>
+   <Interior ss:Color="#C4D8ED" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s133">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Color="#FFFFCC"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:VerticalAlign="Superscript"/>
+  </Style>
+  <Style ss:ID="s134">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Color="#FFFFCC"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#C0C0C0"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <NumberFormat ss:Format="#,##0_ ;\-#,##0\ "/>
+  </Style>
+  <Style ss:ID="s135">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Verdana" x:Family="Swiss" ss:Size="8" ss:Underline="Single"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="I.Stat export">
+  <Table ss:ExpandedColumnCount="14" ss:ExpandedRowCount="32" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="13.2">
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Column ss:AutoFitWidth="0" ss:Width="13.2"/>
+   <Row ss:AutoFitHeight="0" ss:Hidden="1">
+    <Cell ss:StyleID="s62" ss:Formula="=DotStatQuery(RC[1])"><Data ss:Type="Error">#NAME?</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&gt;&lt;WebTableParameter xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns=&quot;http://stats.oecd.org/OECDStatWS/2004/03/01/&quot;&gt;&lt;DataTable Code=&quot;DCCV_POPTIT1_UNT2020&quot; HasMetadata=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Population 15 years and over by highest level of education - previous regulation (until 2020)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Popolazione 15 anni e oltre per titolo di studio - regolamento precedente (fino al 2020)&lt;/Name&gt;&lt;Dimension Code=&quot;ITTER107&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;ITTER107&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Territory&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Territorio&lt;/Name&gt;&lt;Member Code=&quot;IT&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;1&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Italy&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Italia&lt;/Name&gt;&lt;ChildMember Code=&quot;ITC1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Piemonte&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Piemonte&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITC2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Valle d'Aosta / Vallée d'Aoste&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Valle d'Aosta / Vallée d'Aoste&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITC3&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Liguria&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Liguria&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITC4&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Lombardia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Lombardia&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITDA&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Trentino Alto Adige / Südtirol&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Trentino Alto Adige / Südtirol&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITD1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Provincia Autonoma Bolzano / Bozen&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Provincia Autonoma Bolzano / Bozen&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITD2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Provincia Autonoma Trento&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Provincia Autonoma Trento&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITD3&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Veneto&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Veneto&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITD4&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Friuli-Venezia Giulia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Friuli-Venezia Giulia&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITD5&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Emilia-Romagna&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Emilia-Romagna&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITE1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Toscana&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Toscana&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITE2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Umbria&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Umbria&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITE3&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Marche&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Marche&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITE4&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Lazio&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Lazio&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITF1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Abruzzo&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Abruzzo&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITF2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Molise&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Molise&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITF3&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Campania&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Campania&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITF4&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Puglia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Puglia&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITF5&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Basilicata&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Basilicata&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITF6&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Calabria&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Calabria&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITG1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sicilia&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Sicilia&lt;/Name&gt;&lt;/ChildMember&gt;&lt;ChildMember Code=&quot;ITG2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Sardegna&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Sardegna&lt;/Name&gt;&lt;/ChildMember&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TIPO_DATO_FOL&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TIPO_DATO_FOL&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Data type&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Tipo dato&lt;/Name&gt;&lt;Member Code=&quot;POP_15&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;population 15 years and over (thousands)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;popolazione 15 anni e oltre (migliaia)&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;SEXISTAT1&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;SEXISTAT1&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Gender&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Sesso&lt;/Name&gt;&lt;Member Code=&quot;1&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;males&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;maschi&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;females&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;femmine&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;9&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot; IsDisplayed=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;totale&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;ETA1&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;ETA1&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Age class&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Classe di età&lt;/Name&gt;&lt;Member Code=&quot;Y15-19&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;15-19 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;15-19 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y20-24&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;20-24 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;20-24 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y15-24&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;15-24 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;15-24 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y25-29&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;25-29 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;25-29 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y30-34&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;30-34 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;30-34 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y25-34&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;25-34 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;25-34 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y35-39&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;35-39 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;35-39 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y40-44&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;40-44 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;40-44 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y45-49&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;45-49 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;45-49 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y50-54&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;50-54 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;50-54 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y55-59&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;55-59 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;55-59 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y60-64&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;60-64 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;60-64 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y35-64&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;35-64 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;35-64 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y15-64&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;15-64 years&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;15-64 anni&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y_GE65&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;65 years and over&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;65 anni e più&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;Y_GE15&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot; IsDisplayed=&quot;true&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;15 years and over&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;15 anni e più&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TITOLO_STUDIO&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TITOLO_STUDIO&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Highest level of education attained&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Titolo di studio&lt;/Name&gt;&lt;Member Code=&quot;3&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;primary school certificate, no educational degree&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;licenza di scuola elementare, nessun titolo di studio&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;4&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;lower secondary school certificate&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;licenza di scuola media&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;5&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;upper secondary school certificate&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;diploma 2-3 anni (qualifica professionale)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;6&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;post secondary school certificate&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;diploma 4-5 anni (maturità)&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;11&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;tertiary (university, doctoral and specialization courses)&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;laurea e post-laurea&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;99&quot; HasMetadata=&quot;false&quot; HasOnlyUnitMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;totale&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;CITTADINANZA&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;CITTADINANZA&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Citizenship&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Cittadinanza&lt;/Name&gt;&lt;Member Code=&quot;TOTAL&quot; HasMetadata=&quot;false&quot; HasChild=&quot;0&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;total&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;totale&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;Dimension Code=&quot;TIME&quot; HasMetadata=&quot;false&quot; CommonCode=&quot;TIME&quot; Display=&quot;labels&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;Select time&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;Seleziona periodo&lt;/Name&gt;&lt;Member Code=&quot;2005&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2005&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2005&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2006&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2006&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2006&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2007&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2007&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2007&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2008&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2008&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2008&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2009&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2009&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2009&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2010&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2010&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2010&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2011&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2011&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2011&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2012&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2012&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2012&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2013&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2013&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2013&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2014&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2014&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2014&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2015&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2015&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2015&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2016&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2016&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2016&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2017&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2017&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2017&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2018&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2018&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2018&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2019&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2019&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2019&lt;/Name&gt;&lt;/Member&gt;&lt;Member Code=&quot;2020&quot; HasMetadata=&quot;false&quot;&gt;&lt;Name LocaleIsoCode=&quot;en&quot;&gt;2020&lt;/Name&gt;&lt;Name LocaleIsoCode=&quot;it&quot;&gt;2020&lt;/Name&gt;&lt;/Member&gt;&lt;/Dimension&gt;&lt;WBOSInformations&gt;&lt;TimeDimension WebTreeWasUsed=&quot;false&quot;&gt;&lt;StartCodes Annual=&quot;2005&quot; /&gt;&lt;EndCodes Annual=&quot;2020&quot; /&gt;&lt;/TimeDimension&gt;&lt;/WBOSInformations&gt;&lt;Tabulation Axis=&quot;horizontal&quot;&gt;&lt;Dimension Code=&quot;TITOLO_STUDIO&quot; CommonCode=&quot;TITOLO_STUDIO&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;vertical&quot;&gt;&lt;Dimension Code=&quot;ITTER107&quot; CommonCode=&quot;ITTER107&quot; /&gt;&lt;/Tabulation&gt;&lt;Tabulation Axis=&quot;page&quot;&gt;&lt;Dimension Code=&quot;TIPO_DATO_FOL&quot; CommonCode=&quot;TIPO_DATO_FOL&quot; /&gt;&lt;Dimension Code=&quot;SEXISTAT1&quot; CommonCode=&quot;SEXISTAT1&quot; /&gt;&lt;Dimension Code=&quot;ETA1&quot; CommonCode=&quot;ETA1&quot; /&gt;&lt;Dimension Code=&quot;TIME&quot; CommonCode=&quot;TIME&quot; /&gt;&lt;Dimension Code=&quot;CITTADINANZA&quot; CommonCode=&quot;CITTADINANZA&quot; /&gt;&lt;/Tabulation&gt;&lt;Formatting&gt;&lt;Labels LocaleIsoCode=&quot;en&quot; /&gt;&lt;Power&gt;0&lt;/Power&gt;&lt;Decimals&gt;0&lt;/Decimals&gt;&lt;SkipEmptyLines&gt;true&lt;/SkipEmptyLines&gt;&lt;SkipEmptyCols&gt;true&lt;/SkipEmptyCols&gt;&lt;SkipLineHierarchy&gt;true&lt;/SkipLineHierarchy&gt;&lt;SkipColHierarchy&gt;false&lt;/SkipColHierarchy&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;/Formatting&gt;&lt;/DataTable&gt;&lt;Format&gt;&lt;ShowEmptyAxes&gt;true&lt;/ShowEmptyAxes&gt;&lt;Page&gt;1&lt;/Page&gt;&lt;EnableSort&gt;true&lt;/EnableSort&gt;&lt;IncludeFlagColumn&gt;true&lt;/IncludeFlagColumn&gt;&lt;IncludeTimeSeriesId&gt;false&lt;/IncludeTimeSeriesId&gt;&lt;DoBarChart&gt;false&lt;/DoBarChart&gt;&lt;FreezePanes&gt;true&lt;/FreezePanes&gt;&lt;MaxBarChartLen&gt;65&lt;/MaxBarChartLen&gt;&lt;/Format&gt;&lt;Query&gt;&lt;AbsoluteUri&gt;http://dati.istat.it//View.aspx?QueryId=&amp;amp;QueryType=Public&amp;amp;Lang=en&lt;/AbsoluteUri&gt;&lt;/Query&gt;&lt;/WebTableParameter&gt;</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="57.45">
+    <Cell ss:StyleID="s63" ss:HRef="http://dati.istat.it/OECDStat_Metadata/ShowMetadata.ashx?Dataset=DCCV_POPTIT1_UNT2020&amp;ShowOnWeb=true&amp;Lang=en"><Data
+      ss:Type="String">Dataset:Population 15 years and over by highest level of education - previous regulation (until 2020)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438528"><Data ss:Type="String">Data type</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m1202386438548"><Data ss:Type="String">population 15 years and over (thousands)</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438568"><Data ss:Type="String">Gender</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m1202386438588"><Data ss:Type="String">total</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438608"><Data ss:Type="String">Age class</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m1202386438628"><Data ss:Type="String">15 years and over</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438736"><Data ss:Type="String">Select time</Data></Cell>
+    <Cell ss:MergeAcross="11" ss:StyleID="m1202386438756"><Data ss:Type="String">2005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438776"><Data ss:Type="String">Highest level of education attained</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438796"><Data ss:Type="String">primary school certificate, no educational degree</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438816"><Data ss:Type="String">lower secondary school certificate</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438836"><Data ss:Type="String">upper secondary school certificate</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438856"><Data ss:Type="String">post secondary school certificate</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438876"><Data ss:Type="String">tertiary (university, doctoral and specialization courses)</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386438896"><Data ss:Type="String">total</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.8">
+    <Cell ss:StyleID="s104"><Data ss:Type="String">Territory</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386439172"><Data ss:Type="String">0-5 years</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386439192"><Data ss:Type="String">6-8 years</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386439212"><Data ss:Type="String">9-11 years</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386439232"><Data ss:Type="String">12-15 years</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386439252"><Data ss:Type="String">15+</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1202386439272"><Data ss:Type="String"></Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15" ss:StyleID="s123">
+    <Cell ss:StyleID="s124"><Data ss:Type="String">Italy</Data></Cell>
+    <Cell ss:StyleID="s125"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s126"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="Number">13715.477000000001</Data></Cell>
+    <Cell ss:StyleID="s126"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="Number">15443.34</Data></Cell>
+    <Cell ss:StyleID="s126"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="Number">2657.277</Data></Cell>
+    <Cell ss:StyleID="s126"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="Number">13148.472</Data></Cell>
+    <Cell ss:StyleID="s126"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="Number">4541.1909999999998</Data></Cell>
+    <Cell ss:StyleID="s126"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s127"><Data ss:Type="Number">49505.756999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Piemonte</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">995.08199999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1201.0070000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">275.38799999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">941.03599999999994</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">306.77600000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">3719.29</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Valle d'Aosta / Vallée d'Aoste</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">27.963000000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">37.524000000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">6.2450000000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">25.905000000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">8.282</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">105.919</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Liguria</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">340.23599999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">415.07299999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">91.01</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">402.09</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">146.33199999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1394.74</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Lombardia</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1986.8489999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">2495.2620000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">662.32600000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">2068.6680000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">770.923</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">7984.0280000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Trentino Alto Adige / Südtirol</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">184.18799999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">275.596</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">97.935000000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">176.691</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">68.962000000000003</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">803.37300000000005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.549999999999997">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Provincia Autonoma Bolzano / Bozen</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">93.837999999999994</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">149.715</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">38.003</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">77.668000000000006</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">30.364999999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">389.589</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Provincia Autonoma Trento</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">90.35</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">125.881</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">59.932000000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">99.022999999999996</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">38.597999999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">413.78399999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Veneto</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1111.4580000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1249.5060000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">358.18700000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">926.86</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">344.50599999999997</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">3990.5169999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Friuli-Venezia Giulia</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">275.10300000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">319.26499999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">83.212999999999994</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">272.15300000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">94.986999999999995</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1044.721</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Emilia-Romagna</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1047.1959999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1010.7329999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">234.172</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">934.69899999999996</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">352.16899999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">3578.9679999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Toscana</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">957.71900000000005</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">921.37400000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">126.254</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">810.61900000000003</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">307.536</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">3123.5010000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Umbria</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">206.43299999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">192.76400000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">43.247</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">220.607</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">75.953000000000003</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">739.00400000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Marche</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">379.97800000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">376.18299999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">59.118000000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">358.60899999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">133.00399999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1306.8910000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Lazio</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">951.48800000000006</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1253.1420000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">200.66900000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1498.2850000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">577.61400000000003</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">4481.1980000000003</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Abruzzo</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">322.084</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">295.50599999999997</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">38.887999999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">338.21199999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">113.242</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1107.931</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Molise</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">83.93</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">81.608999999999995</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">7.3470000000000004</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">76.409000000000006</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">25.548999999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">274.84399999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Campania</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1372.6949999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1591.6869999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">136.64699999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1232.7449999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">387.80700000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">4721.58</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Puglia</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1089.306</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1148.6369999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">92.507999999999996</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">822.71799999999996</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">234.78</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">3387.9490000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Basilicata</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">164.02799999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">140.93199999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">19.832000000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">141.476</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">36.804000000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">503.07299999999998</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Calabria</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">518.19799999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">490.77499999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">36.463000000000001</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">485.11399999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">142.685</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1673.2349999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Sicilia</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1303.57</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1399.992</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">59.057000000000002</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1074.0219999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">312.82799999999997</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">4149.4690000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:StyleID="s132"><Data ss:Type="String">  Sardegna</Data></Cell>
+    <Cell ss:StyleID="s105"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">397.97399999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">546.77499999999998</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">28.773</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">341.553</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">100.45099999999999</Data></Cell>
+    <Cell ss:StyleID="s133"><Data ss:Type="String"></Data></Cell>
+    <Cell ss:StyleID="s134"><Data ss:Type="Number">1415.5260000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s135" ss:HRef="http://dativ7b.istat.it//index.aspx?DatasetCode=DCCV_POPTIT1_UNT2020"><Data
+      ss:Type="String">Data extracted on 03 mag 2024 16:05 UTC (GMT) fromI.Stat</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <TopRowVisible>1</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>12</ActiveRow>
+     <ActiveCol>24</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
