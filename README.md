@@ -32,7 +32,7 @@ While we initially assumed that education would promote healthier living through
 ---
 ## 🛠️ Tools & Technologies
 
-**R Language**  
+- R Language
 ---
 
 ## 📄 License
